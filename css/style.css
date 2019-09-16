@@ -10,7 +10,7 @@ body {
 }
 
 /* contenitore globale */
-main {
+.globale {
   background-color: black;
   margin: auto;
   width: 70vw;
@@ -18,17 +18,36 @@ main {
 }
 
 /* contenitore dell'header e navbar */
-.section {
+.sezione {
   background-color: grey;
   width: 100%;
   height: 30%;
 }
 
 /* header */
-header {
+.intestaz {
   background-color: darkgreen;
+  width: 100%;
+  height: 80%;
 }
 
+/* blocco menù */
 .navbar {
-  background-color: green;
+  background-color: red;
+  width: 100%;
+  height: 20%;
+}
+
+/* corpo della pagina */
+.corpo-pagina {
+  background-color: white;
+  width: 100%;
+  height: 60%;
+}
+
+/* footer */
+.chiusura {
+  background-color: purple;
+  width: 100%;
+  height: 10%;
 }
