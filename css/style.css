@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -29,6 +30,7 @@ body {
   background-color: darkgreen;
   width: 100%;
   height: 80%;
+  border: 10px solid white;
 }
 
 /* blocco menù */
@@ -76,7 +78,7 @@ body {
   background-color: grey;
   width: 100%;
   height: 30%;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 /* colonna destra */
