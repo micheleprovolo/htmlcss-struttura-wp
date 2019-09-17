@@ -1,3 +1,4 @@
+/* regole generali di pagina */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ body {
 
 /* contenitore globale */
 .globale {
-  background-color: black;
+  /* background-color: black; */
   margin: auto;
   width: 70vw;
   height: 100vh;
@@ -28,7 +29,7 @@ body {
 /* header */
 .intestaz {
   background-color: darkgreen;
-  width: 100%;
+  /* width: 100%; */
   height: 80%;
   border: 10px solid white;
 }
@@ -42,13 +43,18 @@ body {
 
 /* corpo della pagina */
 .corpo-pagina {
-  background-color: white;
+  /* background-color: white; */
   width: 100%;
   height: 60%;
-  float: left;
 }
 
-.corpo-pagina:after {
+.blocco-float {
+  /* width: 100%; */
+  height: 100%;
+  margin-top: 3%;
+}
+
+.blocco-float:after {
   content:"";
   display:table;
   clear:both;
@@ -57,19 +63,20 @@ body {
 /* colonna sinistra */
 .sinistra {
   background-color: blue;
-  width: 30%;
+  width: 20%;
   height: 50%;
-  margin-top: 3%;
+  /* margin-top: 3%; */
   float: left;
 }
 
 /* colonna centrale */
 .centrale {
   background-color: orange;
-  width: 30%;
+  width: 50%;
   height: 30%;
-  margin-top: 3%;
+  /* margin-top: 3%; */
   margin-left: 5%;
+  margin-right: 5%;
   float: left;
 }
 
@@ -78,31 +85,32 @@ body {
   background-color: grey;
   width: 100%;
   height: 25%;
-  margin: 20px auto;
+  margin-bottom: 5%;
 }
 
 /* colonna destra */
 .destra {
-  background-color: pink;
-  width: 30%;
+  /* background-color: pink; */
+  width: 20%;
   height: 70%;
-  margin-top: 3%;
-  float: right;
+  /* margin-top: 3%; */
+  float: left;
 }
 
 /* parte finale */
 .chiusura {
-  background-color: purple;
+  /* background-color: lightgrey; */
   width: 100%;
   height: 10%;
-  display: inline-block;
 }
 
 .social {
-  background-color: lightgrey;
+  background-color: purple;
   width: 100%;
   height: 50%;
+  margin-bottom: 2%;
 }
+
 .footer {
   background-color: lightblue;
   width: 100%;
